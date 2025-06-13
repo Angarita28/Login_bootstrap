@@ -26,7 +26,7 @@
         </div>
         <br>
         <div class="row g-3 align-items-center">
-            <label for="inputFechanacimiento" class="form-label">Fecha de Nacimientp</label>
+            <label for="inputFechanacimiento" class="form-label">Fecha de Nacimiento</label>
             <input type="date" id="inputFechanacimiento" class="form-control"
                 aria-describedby="fechanacimientodHelpBlock" placeholder="Ingrese su fecha de nacimiento" required>
         </div>
@@ -61,7 +61,7 @@
         <br>
 
         <label for="inputSexo" class="form-label">Sexo</label>
-        <select class="form-select" aria-label="Default select example">
+        <select class="form-select" aria-label="Default select example" required>
             <option selected>Seleccione su Sexo </option>
             <option value="1">Masculino</option>
             <option value="2">Femenino</option>
@@ -71,7 +71,7 @@
 
 
         <label for="inputNacionalidad" class="form-label">Nacionalidad</label>
-        <select class="form-select" aria-label="Default select example">
+        <select class="form-select" aria-label="Default select example" required>
             <option selected>Seleccione su Nacionalidad</option>
             <option value="AF">Afganistán</option>
             <option value="AL">Albania</option>
@@ -164,7 +164,7 @@
         <br>
 
         <div class="row g-3 align-items-center">
-            <button type="submit" class="btn btn-info"> Enviar Formulario </button>
+            <button type="submit" id="submitButton" class="btn btn-info"> Enviar Formulario </button>
         </div>
         
         <div class="text-center mt-3">
@@ -172,6 +172,8 @@
             <a href="../index.html">¿Ya tienes cuenta? Inicia sesión</a>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/formulario.js"></script>
 </body>
 
 </html>
