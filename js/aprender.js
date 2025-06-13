@@ -46,5 +46,5 @@ for(let i = 0 ; i < array_string.length; i++){
     impresion = impresion + array_string[i]
 
 }
-Swal.fire(impresion);
+Swal.fire("Hola chus");
   
