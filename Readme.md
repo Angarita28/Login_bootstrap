@@ -29,6 +29,10 @@ Este proyecto tiene como objetivo que, como estudiante de nivel básico en progr
    └── formulario.js   → Scrpit que contiene la logica del Formulario.
    └── Login.js        → Scrpit que contiene la logica del login. 
 
+📁 style/
+   └── productos.css     → Estilo del apartado de productos
+
+
 ```
 
 ---
